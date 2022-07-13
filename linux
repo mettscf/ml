@@ -1,0 +1,8 @@
+#connect to server
+ssh carrie@71.226.170.67
+
+#command to start notebook
+docker run --rm -it -p 8888:8888 -v /home/carrie/ml:/home/pathml --gpus all -d pathml/pathml --NotebookApp.token=abcd
+
+#connect to jupyter notebook
+http://71.226.170.67:8888
