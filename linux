@@ -11,4 +11,4 @@ docker run --rm -it -p 8888:8888 -v /home/carrie/ml:/home/pathml --gpus all -d p
 http://71.226.170.67:8888
 
 #token password
-abcd
+7123248ec2ec43256a8d69e0c931b6fc
